@@ -31,18 +31,26 @@ title: Collage de Yumi
 </div>
 <!-- Galería principal: imágenes solicitadas por el usuario -->
 <div class="collage">
-    <img src=https://github.com/NoMerlyn/NoMerlyn.github.io/blob/main/src/1.png>
+    <img src="{{ '/src/1.png' | relative_url }}" alt="Yumi 1">
     <img src="{{ '/src/2.jpg' | relative_url }}" alt="Yumi 2">
     <img src="{{ '/src/3.jpg' | relative_url }}" alt="Yumi 3">
     <img src="{{ '/src/4.jpg' | relative_url }}" alt="Yumi 4">
     <img src="{{ '/src/5.jpg' | relative_url }}" alt="Yumi 5">
+    <img src="{{ '/src/6.jpg' | relative_url }}" alt="Yumi 6">
+    <img src="{{ '/src/7.jpg' | relative_url }}" alt="Yumi 7">
+    <img src="{{ '/src/8.jpg' | relative_url }}" alt="Yumi 8">
+    <img src="{{ '/src/9.jpg' | relative_url }}" alt="Yumi 9">
 </div>
 
 
-## Una pequeña historia sobre Yumi
+## Este es mi gato
 
-Yumi era una gata de ojos curiosos y pasos suaves. Cada mañana se colaba por la ventana para saludar al sol y olfatear el aire fresco del jardín. Le gustaba quedarse en el alféizar, observando las mariposas como si fueran pequeñas piezas de un secreto que solo ella conocía.
+Como podemos observar, este gato gordo es un gato atigrado, por lo general suele ser bastante dramatico y pues, es un adorable monton de pelo que requiere de atencionn y cariño 24/7.
+Mi mayor recompensa por cuidarlo es tener ataques de alergia gracias a el :)
 
-Una tarde, Yumi encontró una caja vacía que alguien había dejado en la acera. Para cualquiera era una caja; para Yumi era una nave, un castillo y un escondite. Se acomodó dentro, cerró los ojos y soñó con aventuras donde perseguía estrellas y hablaba con los árboles.
 
-Al caer la noche volvió a casa, ronroneando suavemente. Se acurrucó en su manta favorita y, mientras la casa se quedaba en silencio, Yumi supo que mañana habría más mariposas, más cajas y, seguramente, más razones para explorar.
+## Esta es una flor
+
+<img src="{{ '/src/10.jpg' | relative_url }}" alt="flor">
+
+Esta bien bonita esta flor :)

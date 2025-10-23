@@ -26,14 +26,23 @@ title: Collage de Yumi
 </style>
 
 ## Collage de Yumi
-
-{% assign cat_images = site.static_files | where_exp: "f", "f.path contains '/src/yumi/'" %}
-{% if cat_images.size > 0 %}
 <div class="collage">
-    {% for f in cat_images %}
-        <img src="{{ f.path | relative_url }}" alt="Yumi foto {{ forloop.index }}">
-    {% endfor %}
+    
 </div>
-{% else %}
-<p class="note">No se encontraron imágenes en <code>src/yumi</code>. Añade tus fotos y vuelve a cargar la página.</p>
-{% endif %}
+<!-- Galería principal: imágenes solicitadas por el usuario -->
+<div class="collage">
+    <img src=https://github.com/NoMerlyn/NoMerlyn.github.io/blob/main/src/1.png>
+    <img src="{{ '/src/2.jpg' | relative_url }}" alt="Yumi 2">
+    <img src="{{ '/src/3.jpg' | relative_url }}" alt="Yumi 3">
+    <img src="{{ '/src/4.jpg' | relative_url }}" alt="Yumi 4">
+    <img src="{{ '/src/5.jpg' | relative_url }}" alt="Yumi 5">
+</div>
+
+
+## Una pequeña historia sobre Yumi
+
+Yumi era una gata de ojos curiosos y pasos suaves. Cada mañana se colaba por la ventana para saludar al sol y olfatear el aire fresco del jardín. Le gustaba quedarse en el alféizar, observando las mariposas como si fueran pequeñas piezas de un secreto que solo ella conocía.
+
+Una tarde, Yumi encontró una caja vacía que alguien había dejado en la acera. Para cualquiera era una caja; para Yumi era una nave, un castillo y un escondite. Se acomodó dentro, cerró los ojos y soñó con aventuras donde perseguía estrellas y hablaba con los árboles.
+
+Al caer la noche volvió a casa, ronroneando suavemente. Se acurrucó en su manta favorita y, mientras la casa se quedaba en silencio, Yumi supo que mañana habría más mariposas, más cajas y, seguramente, más razones para explorar.
